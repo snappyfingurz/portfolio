@@ -406,31 +406,72 @@
             </div>
         </section>
 
-        <section id="projects">
-            <div class="container">
-                <h2>My work</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <img src="https://placehold.co/800x400/fdfaf6/5d4037?text=Night+Ninja's+Vow">
-                        <div class="project-info">
-                            <h3>My web game</h3>
-                            <h4>Night Ninja’s Vow</h4>
-                            <p>A 2D web game where you dodge, shoot, and climb challenging levels — think Mario, but harder.</p>
-                            <a href="https://night-ninja-s-vow-v8kh.vercel.app/" target="_blank" class="action-button">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="project-card">
-                    <img src="https://placehold.co/800x400/fdfaf6/5d4037?text=Class+Assignments">
-                    <div class="project-info">
-                        <h3>Small Class Projects</h3>
-                        <h4>IHow to Cook Eggs — the Right Way</h4>
-                        <p>A simple HTML project where I created a clean recipe page — listing ingredients, steps, and images in an organized way.</p>
-                        <a href="https://snappyfingurz.github.io/cooking-eggs-instructions/" target="_blank" class="action-button">View Example</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+       <section id="projects">
+  <style>
+    #projects {
+      padding: 40px 0;
+    }
+
+    .project-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px; 
+    }
+
+    .project-card img {
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+
+    .project-info p {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .action-button {
+      margin-top: 10px;
+      display: inline-block;
+    }
+  </style>
+
+  <div class="container">
+    <h2>My Work</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="unnamed.png" alt="Night Ninja’s Vow">
+        <div class="project-info">
+          <h3>My Web Game</h3>
+          <h4>Night Ninja’s Vow</h4>
+          <p>
+            A 2D web game where you dodge, shoot, and climb challenging levels — think Mario, but harder.
+          </p>
+          <p class="tech-stack">
+            <strong>Built with:</strong> HTML, CSS, JavaScript
+          </p>
+          <a href="https://night-ninja-s-vow-v8kh.vercel.app/" target="_blank" class="action-button">Play Now</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="sunnysideupegg.png" alt="Omelette Recipe Page">
+        <div class="project-info">
+          <h3>Small Class Project</h3>
+          <h4>How to Cook Eggs — the Right Way</h4>
+          <p>
+            A simple HTML project where I created a clean recipe page — listing ingredients, steps, and images in an organized way.
+          </p>
+          <p class="tech-stack">
+            <strong>Built with:</strong> HTML, CSS
+          </p>
+          <a href="https://snappyfingurz.github.io/cooking-eggs-instructions/" target="_blank" class="action-button">View Example</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
         <section id="contact">
             <div class="container">
